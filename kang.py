@@ -40,7 +40,7 @@ dispatcher = updater.dispatcher
 START_TEXT = """
 Hey! I'm Qutubuddin Aibak, and I'm a great warrior who died but came back to life to allows you to create a sticker pack from other stickers, images and documents!
 just by doing /kang
-"""(dispatcher.bot.first_name)
+"""
 
 @run_async
 def start(bot: Bot, update: Update):
